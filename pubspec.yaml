@@ -1,0 +1,24 @@
+﻿name: slide_24_puzzle
+description: "Classic 5x5 24-Tile Sliding Number Puzzle with multiple grid sizes and selectable wooden/neon themes."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/
+    - assets/images/profiles/
+    - assets/images/backgrounds/
